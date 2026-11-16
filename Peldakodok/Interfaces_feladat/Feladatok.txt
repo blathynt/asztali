@@ -1,0 +1,20 @@
+﻿1. bővítés - különböző eladandó tárgyak
+- hozz létre egy Targy ősosztályt
+	- legyen neve és ára
+	- származzon le belőle 2 olyan tárgy, amit meg tudunk venni
+
+- A Vasalras osztályban
+	- legyen egy új lista a vásárolandó tárgyakről
+	- legyen egy új metódus: KosárbaTétel(targy)
+		- a vásárolandó tárgyak listaba tegye bele az új tárgyat amit venni akarunk
+	- legyen egy új végösszeg számláló metódus
+		- állítsa be a végösszeget a vásárolandó tárgyak ára alapján
+	- a vásárlás metódus módosítása:
+		- először számolja ki a végösszeget
+		- útána próbáljon meg vásárolni úgy, mint eddig
+
+
+2. bővítés
+A vásárló tudjon több fizetési módot is megadni, prioroitasi sorrendben
+=> vásárlás során először próbáljunk mindegyikkel vásárolni, amíg nem sikerül
+	- ha egyikkel se sikerült: csak útána próbáljunk meg féláron vásárolni
