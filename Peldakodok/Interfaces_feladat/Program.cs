@@ -6,6 +6,8 @@
         {
             Console.WriteLine("Hello, World!");
 
+            /////asdnaskdnaslkdnaskldnaskd
+
             //hozz létre egy új vásárlást Bankkártyával
             /*állíts be 1000 kezdeti egyenleget
             * próbálj vásárolni 2000 értékben
